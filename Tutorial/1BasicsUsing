@@ -1,0 +1,24 @@
+
+
+- Creating a new Laravel Project 
+  1. Open terminal
+  2. "cd PathToAFolder" -> moves the terminal to a specific folder.
+  3. "composer create-project laravel/laravel ProjectName" -> creates a new laravel project inside the current path, directory starts downloading all nescessary assets.
+
+  OR
+
+  1. In a terminal inside a folder 
+  2. "composer create-project laravel/laravel ." -> creates new laravel project inside the current directory
+
+
+- Start the Laravel development server
+  1. Open termianl & move to specified project folder || or inside vscode go to "terminal"
+  2. "php artisan serve" -> starts local server
+  +  "ctrl + c" -> stop the server
+  +  "localhost:8000" -> the address of the server
+  +  "127.0.0.1:8000" -> basically the same as the above address but it is faster to load the page
+
+
+- Welcome Page 
+  + The first page that opens when you open the server is "welcome.blade.php" that is located under the "resources/views" folder
+  + To change what page opens first, go to "routs/web.php"
